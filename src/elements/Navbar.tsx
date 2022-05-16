@@ -9,13 +9,12 @@ const Navbar: Component = () => {
                 <div class="flex justify-start lg:w-0 lg:flex-1">
                     <h1 class={'text-3xl font-semibold uppercase text-blue-500 p-2'}>Nero</h1>
                 </div>
-                <Navlink name={'Site'} link={'https://neronodes.net'} />
-                <Navlink name={'Site'} link={'https://neronodes.net'} />
-                <Navlink name={'Site'} link={'https://neronodes.net'} />
-                <Navlink name={'Site'} link={'https://neronodes.net'} />
+                <Navlink name={'Discord'} link={'https://neronodes.net/discord'} />
+                <Navlink name={'Donate'} link={'https://neronodes.net/donate'} />
+                <Navlink name={'Portal'} link={'https://portal.neronodes.net'} />
                 <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                    <Navlink name={'Sign in'} link={'/login'} />
-                    <Button name={'Sign up'} link={'/signup'} />
+                    <Navlink name={'Sign in'} link={'https://portal.neronodes.net/auth/login'} />
+                    <Button name={'Sign up'} link={'https://portal.neronodes.net/auth/login'} />
                 </div>
             </div>
         </div>
