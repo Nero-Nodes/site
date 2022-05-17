@@ -1,4 +1,5 @@
 import { Component } from 'solid-js';
+import Navlink from './Navlink';
 
 const Footer: Component = () => {
     return (
@@ -8,6 +9,8 @@ const Footer: Component = () => {
                     <h1 class={'text-3xl font-semibold uppercase text-blue-500 p-2'}>Nero</h1>
                 </div>
                 <p class={'text-lg text-gray-500'}>Copyright &copy; 2022 Nero Nodes.</p>
+                <Navlink link={'/legal/terms'} name={'Terms'} />
+                <Navlink link={'/legal/privacy'} name={'Privacy'} />
             </div>
         </div>
     )
