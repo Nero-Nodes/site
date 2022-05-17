@@ -1,4 +1,5 @@
 import { Component } from 'solid-js';
+import Banner from '../../elements/Banner';
 import Footer from '../../elements/Footer';
 import Navbar from '../../elements/Navbar';
 import FeaturesContainer from './FeaturesContainer';
@@ -10,6 +11,7 @@ const HomeWrapper: Component = () => {
     return (
         <>
             <Navbar />
+            <Banner text={'Welcome to the new homepage!'} />
             <HeaderContainer />
             <FeaturesContainer />
             <StatsContainer />
