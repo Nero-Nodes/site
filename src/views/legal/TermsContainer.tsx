@@ -5,7 +5,7 @@ const TermsContainer: Component = () => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
             { /* Title */}
             <div class="flex items-center justify-center md:space-x-10 h-[24rem]">
-                <p class={'text-9xl font-semibold text-white'}>Terms of <span class={'text-blue-500'}>Service</span></p>
+                <p class={'text-9xl font-semibold text-white underline decoration-blue-500'}>Terms of <span class={'text-blue-500'}>Service</span></p>
             </div>
             { /* General */ }
             <div class="flex items-center justify-center md:space-x-10 mt-20">
@@ -128,7 +128,7 @@ const TermsContainer: Component = () => {
                     For any reason if you are confused about the service being offered or how to buy it you are to contact the Management team for assistance.
                 </p>
             </div>
-            <div class="flex items-center justify-center md:space-x-10 mt-10">
+            <div class="flex items-center justify-center md:space-x-10 py-10">
                 <p class={'text-xl font-semibold text-gray-500'}>
                     Last Updated: 17 May 2022
                 </p>

@@ -5,7 +5,12 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'header': "url('https://free4kwallpapers.com/uploads/originals/2020/08/07/minecraft-screenshot-wallpaper.jpg')",
+        'footer': "url('https://i.imgur.com/ptBg4VV.png')",
+      }
+    },
   },
   plugins: [],
 };

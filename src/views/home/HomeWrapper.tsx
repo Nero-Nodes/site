@@ -1,5 +1,3 @@
-import { Component } from 'solid-js';
-import Banner from '../../elements/Banner';
 import Footer from '../../elements/Footer';
 import Navbar from '../../elements/Navbar';
 import FeaturesContainer from './FeaturesContainer';
@@ -7,18 +5,17 @@ import HeaderContainer from './HeaderContainer';
 import SignupContainer from './SignupContainer';
 import StatsContainer from './StatsContainer';
 
-const HomeWrapper: Component = () => {
-    return (
-        <>
+export default () => (
+    <>
+        <div class={'bg-header bg-no-repeat bg-cover h-screen'}>
             <Navbar />
-            <Banner text={'Welcome to the new homepage!'} />
-            <HeaderContainer />
-            <FeaturesContainer />
-            <StatsContainer />
+            <HeaderContainer/>
+        </div>
+        <FeaturesContainer />
+        <StatsContainer />
+        <div class={'bg-footer bg-no-repeat bg-cover bg-bottom'}>
             <SignupContainer />
             <Footer />
-        </>
-    );
-};
-
-export default HomeWrapper;
+        </div>
+    </>
+);

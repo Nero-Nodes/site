@@ -1,16 +1,18 @@
-import { Component } from 'solid-js';
+import Banner from '../../elements/Banner';
 
-const HeaderContainer: Component = () => {
-    return (
-        <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <div class="flex items-center justify-center md:space-x-10 h-[48rem]">
-                <span>
-                    <h1 class={'text-9xl font-bold text-white'}>Your Next<br />Minecraft Server<span class={'text-blue-500'}>.</span></h1>
-                    <h1 class={'text-3xl font-semibold mt-4 text-gray-500'}>Start your next SMP with <span class={'text-blue-500'}>Nero Nodes.</span></h1>
-                </span>
-            </div>
+export default () => (
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <Banner
+            text={'Read Nero\'s statement on the war in Ukraine.'}
+            type={'ukraine'}
+            showCloseIcon
+            icon={false}
+        />
+        <div class="flex items-center justify-center md:space-x-10 h-[48rem]">
+            <span>
+                <h1 class={'text-8xl font-semibold text-white'}>A new take on speed<span class={'text-blue-500'}>.</span></h1>
+                <h1 class={'text-3xl mt-4 text-gray-300 flex justify-center'}>Start your next Minecraft server with <span class={'text-blue-500'}>&nbsp;Nero.</span></h1>
+            </span>
         </div>
-    );
-};
-
-export default HeaderContainer;
+    </div>
+);

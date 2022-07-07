@@ -3,6 +3,8 @@ import { Routes, Route } from 'solid-app-router';
 import HomeWrapper from './home/HomeWrapper';
 import TermsContainer from './legal/TermsContainer';
 import PrivacyContainer from  './legal/PrivacyContainer';
+import NotFound from './NotFound';
+import Latest from './news/Latest';
 
 const App: Component = () => {
   return (
@@ -10,7 +12,8 @@ const App: Component = () => {
       <Route path="/" element={<HomeWrapper />} />
       <Route path="/legal/terms" element={<TermsContainer />} />
       <Route path="/legal/privacy" element={<PrivacyContainer />} />
-      <Route path="/*" element={<div>Not Found</div>} />
+      <Route path="/news/latest" element={<Latest />} />
+      <Route path="/*" element={<NotFound />} />
     </Routes>
   );
 };
