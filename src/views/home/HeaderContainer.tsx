@@ -3,8 +3,8 @@ import Banner from '../../elements/Banner';
 export default () => (
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <Banner
-            text={'Read Nero\'s statement on the war in Ukraine.'}
-            type={'ukraine'}
+            text={'Read Nero\'s statement on the passing of Queen Elizabeth II'}
+            type={'uk'}
             showCloseIcon
             icon={false}
         />
