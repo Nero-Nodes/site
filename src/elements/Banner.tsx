@@ -37,7 +37,7 @@ export default ({ type, text, icon, showCloseIcon }: Props) => {
                 return css + 'bg-yellow-600';
             case 'error':
                 return css + 'bg-red-600';
-            case 'uke':
+            case 'uk':
                 return css + 'bg-blue-600'
             default:
                 return css + 'bg-gray-600';
