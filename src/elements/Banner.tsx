@@ -2,7 +2,7 @@ import { createSignal } from 'solid-js';
 import * as Icon from 'solid-icons/fa';
 
 interface Props {
-    type?: 'success' | 'warning' | 'error' | 'ukraine' | undefined;
+    type?: 'success' | 'warning' | 'error' | 'uk' | undefined;
     text: string;
     icon: boolean;
     showCloseIcon: boolean;
@@ -20,9 +20,9 @@ export default ({ type, text, icon, showCloseIcon }: Props) => {
             case 'warning':
                 return css + 'from-yellow-400 to-yellow-600';
             case 'error':
-                return css + 'from-red-400 to-red-600';
-            case 'ukraine':
-                return css + 'from-yellow-400 to-blue-600';
+                return css + 'from-red-500 to-red-500';
+            case 'uk':
+                return css + 'from-black to-black';
             default:
                 return css + 'from-gray-400 to-blue-600';
         };
@@ -37,7 +37,7 @@ export default ({ type, text, icon, showCloseIcon }: Props) => {
                 return css + 'bg-yellow-600';
             case 'error':
                 return css + 'bg-red-600';
-            case 'ukraine':
+            case 'uk':
                 return css + 'bg-blue-600'
             default:
                 return css + 'bg-gray-600';
@@ -63,7 +63,7 @@ export default ({ type, text, icon, showCloseIcon }: Props) => {
                             <p class="font-semibold text-white truncate">
                                 {text}
                             </p>
-                            {type === 'ukraine' &&
+                            {type === 'uk' &&
                                 <Icon.FaSolidExternalLinkAlt
                                     onClick={() => redirect()}
                                     class={'ml-2 text-white cursor-pointer'}

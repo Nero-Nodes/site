@@ -3,7 +3,7 @@ import Banner from '../../elements/Banner';
 
 const TermsContainer: Component = () => {
     return (
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-screen">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-screen ">
             { /* Title */}
             <div class="flex items-center justify-center md:space-x-10 h-[24rem]">
                 <p class={'text-9xl font-semibold text-white underline decoration-blue-500'}>Privacy <span class={'text-blue-500'}>Policy</span></p>
