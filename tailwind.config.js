@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header': "url('https://free4kwallpapers.com/uploads/originals/2020/08/07/minecraft-screenshot-wallpaper.jpg')",
+        'header': "url('https://staticc.sportskeeda.com/editor/2022/07/ff92b-16579911314959-1920.jpg')",
         'footer': "url('https://i.imgur.com/ptBg4VV.png')",
       }
     },
