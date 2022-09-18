@@ -9,7 +9,7 @@ const Navlink: Component<Props> = ({ link, name }) => {
     return (
         <a 
             href={link}
-            class={'text-gray-800 font-medium text-gray-500 hover:text-black'}
+            class={'text-white font-medium text-gray-500 hover:text-black'}
         >
             {name}
         </a>

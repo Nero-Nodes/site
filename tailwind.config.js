@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header': "url('https://staticc.sportskeeda.com/editor/2022/07/ff92b-16579911314959-1920.jpg')",
+        'header': "url('https://media.discordapp.net/attachments/952334823597408266/1021166831651786883/unknown.png?width=1072&height=559')",
         'footer': "url('https://i.imgur.com/ptBg4VV.png')",
       }
     },
