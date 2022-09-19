@@ -8,6 +8,10 @@ export default () => (
             showCloseIcon
             icon={false}
         />
+        <header>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9918941716569067"
+     crossorigin="anonymous"></script>
+        </header>
         <div class="flex items-center justify-center md:space-x-10 h-[48rem]">
             <span>
                 <h1 class={'text-8xl font-semibold text-white'}>A new take on speed<span class={'text-blue-500'}>.</span></h1>

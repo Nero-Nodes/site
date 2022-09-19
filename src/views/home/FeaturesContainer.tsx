@@ -17,7 +17,7 @@ const FeaturesContainer: Component = () => {
                         </div>
                         <p class="ml-16 text-lg leading-6 font-medium text-white">Powerful Infrastructure</p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">Nero takes pride in using dedicated nodes with Intel&reg; i9-9900K CPU&apos;s or higher. Enjoy a lag-free, consistent and simple hosting experience.</dd>
+                    <dd class="mt-2 ml-16 text-base text-gray-500">Nero takes pride in using dedicated nodes with Intel&reg; Xeon E5-1650v2 CPU&apos;s or higher. Enjoy a lag-free, consistent and simple hosting experience.</dd>
                 </div>
 
                 <div class="relative">
@@ -37,7 +37,7 @@ const FeaturesContainer: Component = () => {
                         </div>
                         <p class="ml-16 text-lg leading-6 font-medium text-white">Passive Earning System</p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">Upgrade your server <span class="font-semibold">for free</span>, simply by using our Game Panel. Credits are automatically allocated when you have the tab open in your browser.</dd>
+                    <dd class="mt-2 ml-16 text-base text-gray-500">Upgrade your server <span class="font-semibold">for free</span>, simply by using our Portal. Credits are automatically allocated when you have the tab open in your browser.</dd>
                 </div>
 
                 <div class="relative">
