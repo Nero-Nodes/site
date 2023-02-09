@@ -11,6 +11,7 @@ const Navbar: Component = () => {
                 </div>
                 <Navlink name={'Discord'} link={'https://discord.com/invite/SaGgzDDEtG'} />
                 <Navlink name={'Donate'} link={'https://www.paypal.com/donate/?hosted_button_id=9SW85VZLD3J9A#'} />
+                <Navlink name={'Portal'} link={'https://portal.neronodes.net'} />
                 <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                     <Button name={'Get Started'} link={'https://portal.neronodes.net/auth/login'} />
                 </div>
