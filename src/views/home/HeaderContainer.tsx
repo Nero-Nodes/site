@@ -3,14 +3,11 @@ import Banner from '../../elements/Banner';
 export default () => (
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <Banner
-            text={'Read Nero\'s statement on the passing of Queen Elizabeth II'}
-            type={'uk'}
+            text={'Enjoy 50% of extra CPU on new servers, on us.'}
             showCloseIcon
             icon={false}
         />
         <header>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9918941716569067"
-     crossorigin="anonymous"></script>
         </header>
         <div class="flex items-center justify-center md:space-x-10 h-[48rem]">
             <span>
