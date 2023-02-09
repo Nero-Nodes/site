@@ -17,7 +17,7 @@ const FeaturesContainer: Component = () => {
                         </div>
                         <p class="ml-16 text-lg leading-6 font-medium text-white">Powerful Infrastructure</p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">Nero takes pride in using dedicated nodes with Intel&reg; Xeon E5-1650v2 CPU&apos;s or higher. Enjoy a lag-free, consistent and simple hosting experience.</dd>
+                    <dd class="mt-2 ml-16 text-base text-gray-500">Nero takes pride in using dedicated nodes with Intel&reg; 9900k CPU&apos;s or higher. Enjoy a lag-free, consistent and simple hosting experience.</dd>
                 </div>
 
                 <div class="relative">
